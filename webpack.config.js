@@ -15,7 +15,7 @@ module.exports = {
         },
         compress: true,
         port: 8080,
-        open: ['./dist/index.html'],
+        open: ['/main.html'],
         hot: true         // "горячее" обновление
     },
     module: {
